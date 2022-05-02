@@ -1,0 +1,75 @@
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    padding: 15px 1px 0px 0px
+}
+
+.navigation__link {
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    border-bottom: 3px solid $color-primary;
+}
+
+.navigation__link__our {
+    list-style: none;
+    padding: 0px 28px 0px 34px;
+    cursor: pointer;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+}
+
+.navigation__link__help {
+    list-style: none;
+    padding: 0px 28px 0px 8px;
+    cursor: pointer;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+}
+
+.navigation__link__сontacts{
+    list-style: none;
+    padding: 0px 1px 0px 8px;
+    cursor: pointer;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+}
+
+.logo h1{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    margin: 19px 0px 10px 0px;
+}
+
+.logo_below p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    margin: 0px 0px 0px 4px;
+}
+
